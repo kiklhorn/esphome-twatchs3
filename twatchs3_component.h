@@ -61,7 +61,7 @@ class AXP2101Component : public Component {
 
     //! TFT BACKLIGHT VDD , Don't change
     PMU.setALDO2Voltage(3300);
-    PMU.enable();
+    PMU.enableALDO2();
 
     //! Screen touch VDD , Don't change
     PMU.setALDO3Voltage(3300);
